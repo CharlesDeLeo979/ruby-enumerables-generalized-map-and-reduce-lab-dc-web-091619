@@ -1,9 +1,9 @@
-def map_to_negativize(array)
-  final_array = []
-  counter = 0 
-  while counter < array.length do
-    final_array.push(array[counter] * -1)
-    counter += 1 
+def map_to_negativize(source_array)
+  new = []
+  i = 0
+  while i < source_array.length do
+    new.push( source_array[i] * -1 ) # <== Unique work
+    i += 1
   end
-  return final_array
+  return new
 end
