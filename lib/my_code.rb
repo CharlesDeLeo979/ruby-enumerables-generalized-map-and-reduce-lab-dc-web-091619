@@ -8,4 +8,4 @@ def map(array)
   return new
 end
 
-def reduce(array, starting_value)
+def reduce(array, starting_point=nil)
